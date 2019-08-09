@@ -1,0 +1,245 @@
+body{
+    background-color: #f5f5f5;
+    width: auto;
+    height: auto;
+    margin:-20px auto 0px auto; /*Centralizando a interface do site*/
+}
+                                /*Inicicializa Formatação Menu*/
+.menu{
+    font-size: 1em;  
+    text-align: right;
+    width: 100%;            /*Largura*/
+    height: auto;            /*Comprimento*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.menu ul{
+    margin-right: 4%;
+    color: rgb(0, 0, 0);
+}
+.menu li{
+    display: inline-block;    /*Deixando o menu na posição horinzontal*/
+    text-align: right;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding: 1%;
+}
+
+.menu a{
+    text-decoration: none;      /*Removendo o sublinhado do link*/
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.menu a:hover{
+    color: #ff7300;
+    border-bottom: solid 1px;
+}
+
+                    /*Finaliza Formatação Menu*/
+
+                    /*Inicializa meus objetivos*/
+.objetivos{
+    background-image: url("imagens/tela_fundo.png");
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 5%;
+}
+.objetivos img{
+    filter: opacity(50%);
+}
+.objetivos img.minha_foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 85px;
+    margin-left: 10px;
+    position: absolute;
+}
+.objetivos h1{
+    font-family: Arial, Helcetica, sans-serif;
+    font-weight: 700;
+    color: #f5f5f5d5;
+    text-align: center;
+}
+.objetivos p{
+    color: #f5f5f5d5;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 3.0em;
+}
+                    /*Finaliza meus objetivos */
+                    /*Iniciazlia meus conhecimentso*/
+.conhecimentos{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.conhecimentos h1{
+    font-family: Arial, Helcetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.conhecimentos article{
+    margin-left: 4%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+}
+.topico01{
+    width: 20%;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    float: left;
+}
+.topico02{
+    width: 20%;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    float: left;
+    margin-left: 10%;
+    
+}
+.topico03{
+    width: 20%;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    float: left;
+    margin-left: 10%;
+    
+}
+
+.topico04{
+    width: 20%;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    float: left;
+    margin-left: 10%;
+    
+}
+.conhecimentos a{
+    text-decoration: none;
+}
+                /*Finaliza meus conhecimentos*/
+                /*Inicializa Formação*/
+.formacao{
+    width: 100%;
+}
+.formacao h1{
+    font-family: Arial, Helcetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.formacao article{
+    width: 30%;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(9, 247, 29);
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    float: left;
+}
+
+.formacao article h4{
+    font-weight: 600;
+}
+                /*Finalizan Formação*/
+                /*Inicializa Experiências*/
+.experiencia{
+    width: 100%;
+}
+.experiencia h1{
+    font-family: Arial, Helcetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 2%;
+}
+.experiencia article{
+    width: 27%;
+    background-color: rgba(255, 255, 255, 0.925);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+                /*Finaliza Experiências*/
+                /*Iincializa Contato*/
+.contato h1{
+    font-family: Arial, Helcetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 2%;
+}
+.contato img{
+    float: left;
+    margin-top: 55px;
+}
+.contato article{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.925);;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.contato p{
+    margin-right: 5%;
+}
+                /*Finaliza Contato*/
+                /*incializa meus footer*/
+footer{
+    width: 100%;
+    height:auto;
+    background: linear-gradient(to right,#ce2e3c,#da6709);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-top: 5%;
+}
+footer p{
+    font-size: 1em;
+    font-family:  Microsoft JhengHei UI Light, HP Simplified, sans-serif; 
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+}
+footer img{
+    margin-top: 1%;
+    padding: .5%;
+}
+                        /*Finaliza meus footer*/
